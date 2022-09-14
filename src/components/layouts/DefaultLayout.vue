@@ -1,20 +1,18 @@
 <template>
   <HeaderComponent/>
-
   <main class="h-screen">
-    main
+    <slot/>
   </main>
-  <footer class="bg-blue-50 shadow ">
-    footer
-  </footer>
+  <FooterComponent/>
 </template>
 
 <script>
-import HeaderComponent from "@/components/HeaderComponent";
+import HeaderComponent from "@/components/headers/HeaderComponent";
+import FooterComponent from "@/components/footers/FooterComponent";
 
 export default {
   name: "DefautLayout",
-  components: {HeaderComponent}
+  components: {FooterComponent, HeaderComponent}
 
 }
 </script>

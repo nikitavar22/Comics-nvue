@@ -1,14 +1,15 @@
 <template>
-  <HeaderComponent/>
-register
+  <DefautLayout>
+    register
+  </DefautLayout>
 </template>
 
 <script>
-import HeaderComponent from "@/components/HeaderComponent";
 
+import DefautLayout from "@/components/layouts/DefaultLayout";
 export default {
   name: "RegisterView",
-  components: {HeaderComponent}
+  components: {DefautLayout}
 
 }
 </script>
