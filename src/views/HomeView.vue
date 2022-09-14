@@ -1,21 +1,12 @@
 <template>
-    <HeaderComponent/>
-    <main class="h-screen">
-      main
-    </main>
-    <footer class="bg-blue-50 shadow ">
-       footer
-    </footer>
+  <DefaultLayout></DefaultLayout>
 </template>
 
 <script>
-import HeaderComponent from "@/components/HeaderComponent";
+import DefaultLayout from "@/components/layouts/DefaultLayout";
 
 export default {
   name: 'HomeView',
-  components: {
-    HeaderComponent
-
-  }
+  components: {DefaultLayout}
 }
 </script>

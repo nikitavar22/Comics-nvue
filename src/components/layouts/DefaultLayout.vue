@@ -1,13 +1,19 @@
 <template>
   <HeaderComponent/>
-register
+
+  <main class="h-screen">
+    main
+  </main>
+  <footer class="bg-blue-50 shadow ">
+    footer
+  </footer>
 </template>
 
 <script>
 import HeaderComponent from "@/components/HeaderComponent";
 
 export default {
-  name: "RegisterView",
+  name: "DefautLayout",
   components: {HeaderComponent}
 
 }
